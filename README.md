@@ -1,31 +1,31 @@
-# 🩺 Voice2Care — Trascrizione, Analisi e Simulazione di Referti Medici
+# CareMind — Un chabot per supportarti nei momenti d'ansia
 
-Nel settore sanitario, specialmente in situazioni di emergenza, il personale medico è spesso costretto a trascrivere manualmente note cliniche — un’attività:
+CareMind è un assistente digitale che offre supporto informativo, pratico ed empatico per la gestione dell'ansia. Basato su tecniche validate e su Retrieval-Augmented Generation (RAG), aiuta a rispondere a dubbi, suggerire esercizi utili e fornire indicazioni non cliniche ma affidabili.
 
-- ⏱️ Lenta e dispendiosa in termini di tempo
-- ⚠️ Soggetta a errori umani
-- 🔗 Non integrata nei flussi digitali moderni
+👥 Per chi è pensato:
 
-**Voice2Care** è un'applicazione full-stack progettata per automatizzare e semplificare la generazione, l’analisi e la gestione dei referti clinici, attraverso l’utilizzo di tecnologie moderne di speech-to-text, intelligenza artificiale generativa (LLM) e interfacce web interattive.
+-Utenti finali: persone con sintomi ansiosi possono accedere a contenuti educativi e tecniche di gestione (respirazione, rilassamento, grounding), ricevendo risposte rassicuranti e feedback anonimo.
+-Operatori sanitari: strumento di consultazione rapida per tecniche e linee guida essenziali, utile durante visite o colloqui di follow-up.
+🧭 Obiettivo: fornire un primo livello di aiuto sicuro, rispettoso e personalizzato, senza sostituire il supporto specialistico.
 
-Il sistema consente al personale sanitario di:
+📞 In caso di necessità: CareMind invita sempre a contattare professionisti o numeri di emergenza, al fine di ricevere un triage medico per situazioni critiche.
 
-- 🎙️ Trascrivere automaticamente note cliniche dettate a voce
-- 🧾 Estrarre strutture dati cliniche (in formato JSON) da testi non strutturati
-- 🖥️ Visualizzare, modificare e validare i referti attraverso una dashboard user-friendly
-- 🔊 Generare in voce naturale i referti clinici simutali, tramite supporto per sintesi vocale e simulazione di ambienti reali con rumore di fondo
-- 📄 Generare automaticamente PDF strutturati dei referti pronti per l’archiviazione o la stampa
-- 🚨 Ricevere notifiche in tempo reale in caso di criticità (es. codice rosso)
-- 📊 Visualizzare analitiche e statistiche aggregate sui dati clinici
+### Tecnologie utilizzate:
+
+- huggingface_hub
+- langchain
+- langchain_community
+- langchain_openai
+- openai
+- pymongo
+- pypdf
+- streamlit
+- bcrypt
+- faiss-cpu
+- ragas
+- cryptography
 
 
-Tutto ciò avviene in un ambiente modulare e scalabile, costruito su:
-
-- 🧠 Backend in FastAPI, che gestisce la logica di business, la trascrizione e l’interazione con i modelli LLM
-- 🖥️ Frontend in Streamlit, che fornisce una dashboard interattiva e facile da usare
-- 🗂️ Database MongoDB, per l’archiviazione efficiente e strutturata dei dati clinici
-
-Voice2Care nasce dunque per ridurre il carico cognitivo del personale sanitario, minimizzare gli errori legati alla documentazione manuale e aumentare l'efficienza operativa, con un focus particolare su contesti ad alta criticità come il Pronto Soccorso.
 
 ## ⚙️ Installazione (Terminale VS Code)
 
