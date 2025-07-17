@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+.stTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: #51b5c7;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.st-emotion-cache-1vtsxbh{
+    position: relative;
+    right: -15px;
+}
+
+.st-emotion-cache-130cvuj{
+    position: relative;
+}
+
+.st-emotion-cache-uhkwx6{
+    background-color: #ede8d4;
+}
+
+.customBtn{
+    background-color: #dcd6c0; 
+    border-radius:30%;
+}
+.stHeader {
+    background-color: #5e3a05;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #085457;
+}
+.stExpander {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #5e3a05;
+}
+
+.stMarkdown {
+    font-family: 'Roboto', sans-serif;
+    color: #5e3a05;
+}
+
+.object-key-val{
+    background-color: #dcd6c0
+}
+
+.customHdr{
+    color: #27a1b7;
+}
+
+.st-emotion-cache-7ym5gk{
+    bottom: 20px;
+}
+
+.st-emotion-cache-6qob1r{
+    background-color: #dcd6c0
+}
+
+.user-message {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.assistant-message {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.stChatMessage {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;  
+    
+}
+
+.st-emotion-cache-1hkc054:hover {
+    background-color: transparent;
+    color: rgb(255,255,255);
+}
+
+.user-bubble{
+    background-color: #c0cbd0;
+    padding: 8px;
+    border-radius: 10px 10px 0 10px;
+    text-align: right;
+    color: #302e2b;
+    max-width: 70%;
+    overflow-wrap: auto;
+}
+
+.assistant-bubble {
+    background-color: #faf8e3;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px; 
+    padding: 8px;
+    border-radius: 10px 10px 10px 0;
+    text-align: left;
+    color: #302e2b;
+    overflow-wrap: break-word;
+}
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    align-self: flex-end;
+}
