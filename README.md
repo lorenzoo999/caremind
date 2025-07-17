@@ -80,7 +80,8 @@ streamlit run chatbot.py
 ```
 
 
-### ☁️ Deploy su Streamlit Community Cloud
+
+## ☁️ Deploy su Streamlit Community Cloud
 
 CareMind può essere eseguito anche direttamente online tramite Streamlit Cloud, senza bisogno di alcuna installazione locale.
 E' possibile eseguire il chatbot al seguente link: https://caremind.streamlit.app
@@ -90,15 +91,14 @@ E' possibile eseguire il chatbot al seguente link: https://caremind.streamlit.ap
 ## Credenziali di Accesso
 All'avvio dell'applicazione sarà possibile accedere a sezione per pazienti e per professionisti (operatori sanitari) che richiederanno delle rispettive credenziali di accesso valide:
 
-<img width="600" alt="login Pazienti" src="https://github.com/user-attachments/assets/3cd851fe-81e9-4724-8b07-c6257f0d8ce3" />
 
 ### Credenziali di esempio Paziente
 
-- **Email:** `stefano.diguida@gmail.it`  
+- **Email:** `stefano.diguida@gmail.com`  
   **Password:** `stefanodiguida`
 
 ### Credenziali di esempio Professionista
 
-- **Email:** `simone.rossi@asl1.it`  
+- **Email:** `simone.rossi@asl1.com`  
   **Password:** `PasswordSicura123`
 
