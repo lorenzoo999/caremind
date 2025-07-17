@@ -10,4 +10,5 @@ streamlit==1.46.1
 bcrypt==4.3.0
 faiss-cpu==1.11.0
 ragas==0.2.15
+cryptography>=3.1
 
